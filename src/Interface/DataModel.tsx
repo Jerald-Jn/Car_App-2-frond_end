@@ -14,19 +14,16 @@ export const Insurance={
 }
 
 export const Car={
-    carId:'',
-    make:'',
-    year:'',
-    transmission:'',
-    engineCapacity:'',
-    mileage:'',
-    registrationNumber:'',
-    vin:'',
-    model:'',
-    fuelType:'',
-    price:'',
-    color:'',
-    insurance:Insurance
+    make:"Toyota",
+        year:"",
+        transmission:"",
+        engineCapacity:"",
+        mileage:"",
+        vin:"",
+        model:"",
+        fuelType:"",
+        price:"",
+        color:"",
 }
 
 export const User={
@@ -35,4 +32,20 @@ export const User={
     password:'',
     userInfo:UserInfo,
     car:Car
+}
+
+export interface Cars{
+    carId:'',
+    make:'Toyota',
+    year:'',
+    transmission:'',
+    engineCapacity:'',
+    mileage:'',
+    vin:'',
+    model:string,
+    fuelType:'',
+    price:'',
+    color:'black',
+    car_Image:'',
+    car_logo:''
 }
